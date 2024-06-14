@@ -5,17 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/styles.css" rel="stylesheet" type="text/css" />
   <title>Piedra, papel, tijera</title>
-</head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  </head>
 <body>
   <h1>PIEDRA, PAPEL O TIJERA. ¡A JUGAR!</h1>
-  <button class="boton-jugada" data-jugada="piedra">Piedra</button>
-  <button class="boton-jugada" data-jugada="papel">Papel</button>
-  <button class="boton-jugada" data-jugada="tijera">Tijera</button>
+  <button class="boton-jugada" data-jugada="PIEDRA">Piedra</button>
+  <button class="boton-jugada" data-jugada="PAPEL">Papel</button>
+  <button class="boton-jugada" data-jugada="TIJERA">Tijera</button>
   <div class="textos">
     <div id="resultados"></div>
-    <div class="puntuaciones">
-      <p id="contador-usuario">Tus puntos: 0</p>
-      <p id="contador-ordenador">Puntos de la máquina: 0</p>
+    <div class="imagenFondo">
+      <div class="puntuaciones">
+        <p id="contador-usuario">Tus puntos: 0</p>
+        <p id="contador-ordenador">Puntos de la máquina: 0</p>
+      </div>
     </div>
   </div>
   <script src="./js/script.js"></script>
